@@ -1,9 +1,23 @@
+// import dadaProfile from '../client/assets/images/users/13/dada.png';
+// import tripSchedulesItaly from '../client/assets/images/tripSchedules/italy.jpg';
+// import users1Thumbnail from '../client/assets/images/users/thumbnail1.png';
+// import users3Thumbnail from '../client/assets/images/users/thumbnail3.png';
+// import tripSchedules5Cover from '../client/assets/images/tripSchedules/5/cover.png';
+// const tripSchedules1Cover = require('../client/assets/images/tripSchedules/1/cover.png');
+// const tripSchedules13Cover = require('../client/assets/images/tripSchedules/13/a.jpeg');
+
+const dadaProfile = require('../client/assets/images/users/13/dada.png');
+const tripSchedulesItaly = require('../client/assets/images/tripSchedules/italy.jpg');
+const users1Thumbnail = require('../client/assets/images/users/thumbnail1.png');
+const users3Thumbnail = require('../client/assets/images/users/thumbnail3.png');
+const tripSchedules5Cover = require('../client/assets/images/tripSchedules/5/cover.png');
+
 let tripSchedules = [
   {
     tripScheduleId: 1,
     authorId: 1,
     author: 'blahblah',
-    authorProfilePic: '/assets/images/users/1/thumbnail.png',
+    authorProfilePic: users1Thumbnail,
     title: '역삼역',
     summary: '',
     tripDays: 2,
@@ -134,7 +148,7 @@ let tripSchedules = [
     tripScheduleId: 2,
     authorId: 3,
     author: 'Benja',
-    authorProfilePic: '/assets/images/users/3/thumbnail.png',
+    authorProfilePic: users3Thumbnail,
     title: '[헬싱키 비교체험] 초호화 사우나 VS 무료 사우나',
     summary: '',
     tripDays: 2,
@@ -143,7 +157,7 @@ let tripSchedules = [
     createdDate: '2022-08-30T01:17:00.067Z',
     numberOfPeople: '2',
     coverImg:
-      'https://www.visitfinland.com/.imaging/mte/visit-finland-theme/xlUpW/dam/Helsinki/Lo-yly_Helsinki_credit-Ulla-Ma-kela-.jpg/jcr:content/L%C3%B6yly_Helsinki_credit%20Ulla%20M%C3%A4kel%C3%A4.jpg',
+      'https://images.ctfassets.net/07d9secrcl5c/61ZcNAKF1uysEukeIqAQco/21b56a531bbe55306653f82f50b29c8b/allas-2016-opening_party-eetu_ahanen-045.jpg',
     content: '하루에 사우나 2탕, 초호화 사우나와 무료 사우나를 비교 체험 해봤습니다.',
     isLiked: false,
     likeCount: 35,
@@ -1302,7 +1316,7 @@ let tripSchedules = [
     endDate: '2022-09-11T00:00:00.000Z',
     createdDate: '2022-08-31T01:07:39.259Z',
     numberOfPeople: '2',
-    coverImg: '/assets/images/tripSchedules/5/cover.png',
+    coverImg: tripSchedules5Cover,
     content:
       '세월이 변하고 사람이 바뀌고 집의 형태가 달라졌어도, 골목은 그대로 남아 추억을 환기하는 곳이 있다. 서울 도심 한복판의 오래된 동네, 서촌이 그렇다. 서촌은 경복궁 서쪽을 일컫는다. 경복궁 서문인 영추문을 끼고 청와대까지 곧장 이어지는 효자로 왼편, 즉 경복궁과 인왕산 사이를 말한다.',
     isLiked: false,
@@ -2254,7 +2268,7 @@ let tripSchedules = [
     endDate: '2022-09-10T00:00:00.000Z',
     createdDate: '2022-08-31T00:52:39.201Z',
     numberOfPeople: '1',
-    coverImg: '/assets/images/tripSchedules/italy.jpg',
+    coverImg: tripSchedulesItaly,
     content: '붉은 지붕으로 가득한 피렌체 여행기.\n미켈란젤로 광장에서 노을과 버스킹 무대는 필수!',
     isLiked: false,
     likeCount: 529,
@@ -3313,7 +3327,8 @@ let tripSchedules = [
     tripScheduleId: 9,
     authorId: 13,
     author: '다다',
-    authorProfilePic: '/assets/images/users/13/profile1.jpeg',
+    // authorProfilePic: users13Profile1,
+    authorProfilePic: dadaProfile,
     title: '뉴욕에서 \b3일간 캐리 브래드쇼로 살기',
     summary: '',
     tripDays: 3,
@@ -3321,7 +3336,8 @@ let tripSchedules = [
     endDate: '2023-01-03T15:00:00.000Z',
     createdDate: '2022-08-30T12:23:27.623Z',
     numberOfPeople: '1',
-    coverImg: '/assets/images/tripSchedules/13/a.jpeg',
+    // coverImg: tripSchedules13Cover,
+    coverImg: '',
     content: '글 쓰고 그림그리고 커피마시고 맛집가고 재밌게 놀아보렵니다',
     isLiked: false,
     likeCount: 101,

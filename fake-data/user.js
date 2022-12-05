@@ -1,3 +1,9 @@
+// // const testProfile = require('../client/assets/images/users/1/thumbnail.png');
+// const image = require('../client/assets/ImportImages.js');
+
+// console.log('임포트 이미지');
+// console.log(image.images);
+
 const users = [
   {
     userId: 1,
@@ -5,7 +11,7 @@ const users = [
     password: '123456',
     name: 'blah',
     nickname: 'blahblah',
-    profilePic: '/assets/images/users/1/thumbnail.png',
+    profilePic: '/client/assets/images/users/1/thumbnail.png',
   },
   {
     userId: 2,

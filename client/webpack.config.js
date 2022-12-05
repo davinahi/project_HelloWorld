@@ -10,16 +10,17 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    assetModuleFilename: 'assets/[hash][ext]',
+    assetModuleFilename: '[path][hash][ext]',
     filename: 'bundle.js',
+    clean: true,
   },
   module: {
     rules: [
       {
-        test: /\.(svg|png|jpg|gif|mp4)$/,
+        test: /\.(svg|png|jpg|jpeg|gif|mp4)$/,
         loader: 'file-loader',
         options: {
-          name: 'assets/[contenthash].[ext]',
+          name: '[path][contenthash].[ext]',
         },
       },
       {

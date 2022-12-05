@@ -1,4 +1,5 @@
 import Component from '../../core/Component.js';
+import DefaultProfilePic from '../../../assets/images/users/profileDefault.png';
 
 class MainPost extends Component {
   render() {
@@ -14,13 +15,14 @@ class MainPost extends Component {
       commentCount,
       selectedCardId,
     } = this.props;
+
     return `
     <li class="travel-log__item ${selectedCardId === tripScheduleId ? 'selected' : ''}" id="${tripScheduleId}">
     <a href="${'/trip-planner-view/' + tripScheduleId}" class="travel-log__link">
       <div class="travel-log__item__top-section" style="background-image: url('${coverImg}')">
         <div class="travel-log__item__user-info">
           <img class="travel-log__item__user-info__profile-pic" src="${
-            authorProfilePic || '/assets/images/users/profileDefault.png'
+            authorProfilePic || DefaultProfilePic
           }" alt="${author} 님의 프로필 사진" />
           <span class="travel-log__item__user-info__nickname">${author}</span>
         </div>

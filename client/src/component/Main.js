@@ -1,6 +1,14 @@
 import Component from '../core/Component.js';
 import store from '../store/store.js';
 import MainPost from './Main/MainPost.js';
+import videothumbnail2 from '../../assets/videos/videothumbnail2.mp4';
+import MainMovie5 from '../../assets/videos/MainMovie5.mp4';
+import MainMovie1 from '../../assets/videos/MainMovie1.mp4';
+import tripSchedulesItaly from '../../assets/images/tripSchedules/italy.jpg';
+import dadaProfile from '../../assets/images/users/13/dada.png';
+import users1Thumbnail from '../../assets/images/users/thumbnail1.png';
+import users3Thumbnail from '../../assets/images/users/thumbnail3.png';
+import tripSchedules5Cover from '../../assets/images/tripSchedules/5/cover.png';
 
 class Main extends Component {
   async init() {
@@ -55,7 +63,7 @@ class Main extends Component {
                 </span>
                 <video
                   class="hot-topic__item__thumbnail__video"
-                  src="/assets/videos/videothumbnail2.mp4"
+                  src=${videothumbnail2}
                   autoplay="true"
                   loop="true"
                   muted="true"></video>
@@ -76,7 +84,7 @@ class Main extends Component {
                       fill="#EEEEEE" />
                   </svg>
                 </span>
-                <video class="hot-topic__item__thumbnail__video" src="/assets/videos/MainMovie1.mp4" autoplay="true" loop="true" muted="true"></video>
+                <video class="hot-topic__item__thumbnail__video" src=${MainMovie1} autoplay="true" loop="true" muted="true"></video>
               </div>
               <div class="hot-topic__item__detail">
                 <h3 class="hot-topic__item__detail__title">인기여행지 1위</h3>
@@ -94,7 +102,7 @@ class Main extends Component {
                       fill="#EEEEEE" />
                   </svg>
                 </span>
-                <video class="hot-topic__item__thumbnail__video" src="/assets/videos/MainMovie5.mp4" autoplay="true" loop="true" muted="true"></video>
+                <video class="hot-topic__item__thumbnail__video" src=${MainMovie5} autoplay="true" loop="true" muted="true"></video>
               </div>
               <div class="hot-topic__item__detail">
                 <h3 class="hot-topic__item__detail__title">인기여행지 1위</h3>

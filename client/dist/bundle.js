@@ -1926,6 +1926,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_Component_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../core/Component.js */ "./client/src/core/Component.js");
 /* harmony import */ var _store_store_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store/store.js */ "./client/src/store/store.js");
 /* harmony import */ var _Main_MainPost_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Main/MainPost.js */ "./client/src/component/Main/MainPost.js");
+/* harmony import */ var _assets_videos_videothumbnail2_mp4__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/videos/videothumbnail2.mp4 */ "./client/assets/videos/videothumbnail2.mp4");
+/* harmony import */ var _assets_videos_MainMovie5_mp4__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/videos/MainMovie5.mp4 */ "./client/assets/videos/MainMovie5.mp4");
+/* harmony import */ var _assets_videos_MainMovie1_mp4__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/videos/MainMovie1.mp4 */ "./client/assets/videos/MainMovie1.mp4");
+/* harmony import */ var _assets_images_tripSchedules_italy_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/tripSchedules/italy.jpg */ "./client/assets/images/tripSchedules/italy.jpg");
+/* harmony import */ var _assets_images_users_13_dada_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/users/13/dada.png */ "./client/assets/images/users/13/dada.png");
+/* harmony import */ var _assets_images_users_thumbnail1_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/images/users/thumbnail1.png */ "./client/assets/images/users/thumbnail1.png");
+/* harmony import */ var _assets_images_users_thumbnail3_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/images/users/thumbnail3.png */ "./client/assets/images/users/thumbnail3.png");
+/* harmony import */ var _assets_images_tripSchedules_5_cover_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/images/tripSchedules/5/cover.png */ "./client/assets/images/tripSchedules/5/cover.png");
+
+
+
+
+
+
+
+
 
 
 
@@ -1983,7 +1999,7 @@ class Main extends _core_Component_js__WEBPACK_IMPORTED_MODULE_0__["default"] {
                 </span>
                 <video
                   class="hot-topic__item__thumbnail__video"
-                  src="/assets/videos/videothumbnail2.mp4"
+                  src=${_assets_videos_videothumbnail2_mp4__WEBPACK_IMPORTED_MODULE_3__["default"]}
                   autoplay="true"
                   loop="true"
                   muted="true"></video>
@@ -2004,7 +2020,7 @@ class Main extends _core_Component_js__WEBPACK_IMPORTED_MODULE_0__["default"] {
                       fill="#EEEEEE" />
                   </svg>
                 </span>
-                <video class="hot-topic__item__thumbnail__video" src="/assets/videos/MainMovie1.mp4" autoplay="true" loop="true" muted="true"></video>
+                <video class="hot-topic__item__thumbnail__video" src=${_assets_videos_MainMovie1_mp4__WEBPACK_IMPORTED_MODULE_5__["default"]} autoplay="true" loop="true" muted="true"></video>
               </div>
               <div class="hot-topic__item__detail">
                 <h3 class="hot-topic__item__detail__title">인기여행지 1위</h3>
@@ -2022,7 +2038,7 @@ class Main extends _core_Component_js__WEBPACK_IMPORTED_MODULE_0__["default"] {
                       fill="#EEEEEE" />
                   </svg>
                 </span>
-                <video class="hot-topic__item__thumbnail__video" src="/assets/videos/MainMovie5.mp4" autoplay="true" loop="true" muted="true"></video>
+                <video class="hot-topic__item__thumbnail__video" src=${_assets_videos_MainMovie5_mp4__WEBPACK_IMPORTED_MODULE_4__["default"]} autoplay="true" loop="true" muted="true"></video>
               </div>
               <div class="hot-topic__item__detail">
                 <h3 class="hot-topic__item__detail__title">인기여행지 1위</h3>
@@ -2134,6 +2150,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _core_Component_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core/Component.js */ "./client/src/core/Component.js");
+/* harmony import */ var _assets_images_users_profileDefault_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/users/profileDefault.png */ "./client/assets/images/users/profileDefault.png");
+
 
 
 class MainPost extends _core_Component_js__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -2150,13 +2168,14 @@ class MainPost extends _core_Component_js__WEBPACK_IMPORTED_MODULE_0__["default"
       commentCount,
       selectedCardId,
     } = this.props;
+
     return `
     <li class="travel-log__item ${selectedCardId === tripScheduleId ? 'selected' : ''}" id="${tripScheduleId}">
     <a href="${'/trip-planner-view/' + tripScheduleId}" class="travel-log__link">
       <div class="travel-log__item__top-section" style="background-image: url('${coverImg}')">
         <div class="travel-log__item__user-info">
           <img class="travel-log__item__user-info__profile-pic" src="${
-            authorProfilePic || '/assets/images/users/profileDefault.png'
+            authorProfilePic || _assets_images_users_profileDefault_png__WEBPACK_IMPORTED_MODULE_1__["default"]
           }" alt="${author} 님의 프로필 사진" />
           <span class="travel-log__item__user-info__nickname">${author}</span>
         </div>
@@ -6758,7 +6777,105 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/391e3d9263841556b07a1b05b3a31f7d.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/images/HelloWorldLogo.svg");
+
+/***/ }),
+
+/***/ "./client/assets/images/tripSchedules/5/cover.png":
+/*!********************************************************!*\
+  !*** ./client/assets/images/tripSchedules/5/cover.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/images/tripSchedules/5/cover.png");
+
+/***/ }),
+
+/***/ "./client/assets/images/tripSchedules/italy.jpg":
+/*!******************************************************!*\
+  !*** ./client/assets/images/tripSchedules/italy.jpg ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/images/tripSchedules/italy.jpg");
+
+/***/ }),
+
+/***/ "./client/assets/images/users/13/dada.png":
+/*!************************************************!*\
+  !*** ./client/assets/images/users/13/dada.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/images/users/13/dada.png");
+
+/***/ }),
+
+/***/ "./client/assets/images/users/profileDefault.png":
+/*!*******************************************************!*\
+  !*** ./client/assets/images/users/profileDefault.png ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/images/users/profileDefault.png");
+
+/***/ }),
+
+/***/ "./client/assets/images/users/thumbnail1.png":
+/*!***************************************************!*\
+  !*** ./client/assets/images/users/thumbnail1.png ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/images/users/thumbnail1.png");
+
+/***/ }),
+
+/***/ "./client/assets/images/users/thumbnail3.png":
+/*!***************************************************!*\
+  !*** ./client/assets/images/users/thumbnail3.png ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/images/users/thumbnail3.png");
+
+/***/ }),
+
+/***/ "./client/assets/videos/MainMovie1.mp4":
+/*!*********************************************!*\
+  !*** ./client/assets/videos/MainMovie1.mp4 ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/videos/MainMovie1.mp4");
 
 /***/ }),
 
@@ -6772,7 +6889,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/295e7562b3eba101ad9ebc29658e5351.mp4");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/videos/MainMovie3.mp4");
+
+/***/ }),
+
+/***/ "./client/assets/videos/MainMovie5.mp4":
+/*!*********************************************!*\
+  !*** ./client/assets/videos/MainMovie5.mp4 ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/videos/MainMovie5.mp4");
+
+/***/ }),
+
+/***/ "./client/assets/videos/videothumbnail2.mp4":
+/*!**************************************************!*\
+  !*** ./client/assets/videos/videothumbnail2.mp4 ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "client/assets/videos/videothumbnail2.mp4");
 
 /***/ }),
 
@@ -7142,7 +7287,7 @@ module.exports = styleTagTransform;
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/3c589d0ad39401de8556.svg";
+module.exports = __webpack_require__.p + "client/assets/images/add_todo.svg";
 
 /***/ }),
 
@@ -7152,7 +7297,7 @@ module.exports = __webpack_require__.p + "assets/3c589d0ad39401de8556.svg";
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/9605390e1910786c8110.svg";
+module.exports = __webpack_require__.p + "client/assets/images/angle-left-solid.svg";
 
 /***/ }),
 
@@ -7162,7 +7307,7 @@ module.exports = __webpack_require__.p + "assets/9605390e1910786c8110.svg";
   \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/b874bf773ea7f82726c2.svg";
+module.exports = __webpack_require__.p + "client/assets/images/calendar-dark.svg";
 
 /***/ }),
 
@@ -7172,7 +7317,7 @@ module.exports = __webpack_require__.p + "assets/b874bf773ea7f82726c2.svg";
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/70fd8f762ab3aec27b6d.svg";
+module.exports = __webpack_require__.p + "client/assets/images/calendar.svg";
 
 /***/ }),
 
@@ -7182,7 +7327,7 @@ module.exports = __webpack_require__.p + "assets/70fd8f762ab3aec27b6d.svg";
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/fe791565a41c733edb62.svg";
+module.exports = __webpack_require__.p + "client/assets/images/cancel.svg";
 
 /***/ }),
 
@@ -7192,7 +7337,7 @@ module.exports = __webpack_require__.p + "assets/fe791565a41c733edb62.svg";
   \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/dd575533a22deeedc9b4.svg";
+module.exports = __webpack_require__.p + "client/assets/images/checkbox_off.svg";
 
 /***/ }),
 
@@ -7202,7 +7347,7 @@ module.exports = __webpack_require__.p + "assets/dd575533a22deeedc9b4.svg";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/2a62f4e381c76e2a36c9.svg";
+module.exports = __webpack_require__.p + "client/assets/images/checkbox_on.svg";
 
 /***/ }),
 
@@ -7212,7 +7357,7 @@ module.exports = __webpack_require__.p + "assets/2a62f4e381c76e2a36c9.svg";
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/cc24fec491ffd0b04cf6.svg";
+module.exports = __webpack_require__.p + "client/assets/images/close.svg";
 
 /***/ }),
 
@@ -7222,7 +7367,7 @@ module.exports = __webpack_require__.p + "assets/cc24fec491ffd0b04cf6.svg";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/8629aec6bdcf3108aa6c.svg";
+module.exports = __webpack_require__.p + "client/assets/images/comment-add.svg";
 
 /***/ }),
 
@@ -7232,7 +7377,7 @@ module.exports = __webpack_require__.p + "assets/8629aec6bdcf3108aa6c.svg";
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/ea2e1c248f69e697ef62.svg";
+module.exports = __webpack_require__.p + "client/assets/images/iconCamera.svg";
 
 /***/ }),
 
@@ -7242,7 +7387,7 @@ module.exports = __webpack_require__.p + "assets/ea2e1c248f69e697ef62.svg";
   \*************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/9018ab7f41115ff057e0.svg";
+module.exports = __webpack_require__.p + "client/assets/images/newPost_camera.svg";
 
 /***/ }),
 
@@ -7252,7 +7397,7 @@ module.exports = __webpack_require__.p + "assets/9018ab7f41115ff057e0.svg";
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/5fa783fd824e31313ced.svg";
+module.exports = __webpack_require__.p + "client/assets/images/plus-solid.svg";
 
 /***/ }),
 
@@ -7262,7 +7407,7 @@ module.exports = __webpack_require__.p + "assets/5fa783fd824e31313ced.svg";
   \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/6a1391618f3cdaa825dc.svg";
+module.exports = __webpack_require__.p + "client/assets/images/post-edit.svg";
 
 /***/ }),
 
@@ -7272,7 +7417,7 @@ module.exports = __webpack_require__.p + "assets/6a1391618f3cdaa825dc.svg";
   \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/23bf47b43c71b060ff55.svg";
+module.exports = __webpack_require__.p + "client/assets/images/recomment-add.svg";
 
 /***/ }),
 
@@ -7282,7 +7427,7 @@ module.exports = __webpack_require__.p + "assets/23bf47b43c71b060ff55.svg";
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/e75a06666a8c559a3043.svg";
+module.exports = __webpack_require__.p + "client/assets/images/recomment-arrow.svg";
 
 /***/ }),
 
@@ -7292,7 +7437,7 @@ module.exports = __webpack_require__.p + "assets/e75a06666a8c559a3043.svg";
   \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/d22c55038257eaa09428.svg";
+module.exports = __webpack_require__.p + "client/assets/images/select_arrow.svg";
 
 /***/ }),
 
@@ -7302,7 +7447,7 @@ module.exports = __webpack_require__.p + "assets/d22c55038257eaa09428.svg";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/d1cd607bd436fdc986c8.svg";
+module.exports = __webpack_require__.p + "client/assets/images/select_time.svg";
 
 /***/ })
 

@@ -99,7 +99,15 @@
 
 ## 📑 프로젝트 산출물
 
-<table>
+| [기획서](https://absorbed-leek-405.notion.site/b0a9acc7214e4303a0628db065e947cc) | [요구사항명세서](https://absorbed-leek-405.notion.site/01f981c31884406cab23f7d4f0d892b3) | [Figma](https://www.figma.com/file/Y2i7FagaFVoJ1WMsU7B3g1/Hello-world?node-id=0%3A1) |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| ![기획서 사진](./client/assets/images/doc/projectstart.png)                      | ![요구사항 명세서 사진](./client/assets/images/doc/demend.png)                           | ![Figma 사진](./client/assets/images/doc/figma.png)                                  |
+
+| [회의록](https://absorbed-leek-405.notion.site/e6840df2aa624595910e8876f70769d1?v=0883c70f19c247e3b430dea1d53264ab) | [칸반보드 / 간트차트](https://absorbed-leek-405.notion.site/96ee8f7bd04544579c8cc18b48deb9a9?v=54d782f70b2c4008a355c2fe93b6bf68) | [Git Convention](https://absorbed-leek-405.notion.site/Git-convention-389d22f88111471db595f58892001b38) |
+| ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| ![회의록 사진](./client/assets/images/doc/meetingLog.png)                                                           | ![칸반보드 / 간트차트 사진](./client/assets/images/doc/canban.png)                                                               | ![Git Convention 사진](./client/assets/images/doc/gitconvention.png)                                    |
+
+<!-- <table>
   <thead>
     <tr>
       <th>
@@ -117,7 +125,7 @@
   <tr>
       <td align="center">
         <a href="https://absorbed-leek-405.notion.site/b0a9acc7214e4303a0628db065e947cc">
-          <img width="789" alt="image" src="/client/assets/images/doc/projectstart.png">
+          <img width="789" alt="image" src="client/assets/images/doc/projectstart.png">
         </a>
       </td>
       <td align="center">
@@ -127,14 +135,14 @@
       </td>
       <td align="center">
         <a href="https://www.figma.com/file/Y2i7FagaFVoJ1WMsU7B3g1/Hello-world?node-id=0%3A1">
-          <img width="789" alt="image" src="/client/assets/images/doc/figma.png">
+          <img width="789" alt="image" src="./client/assets/images/doc/figma.png">
         </a>
       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>
@@ -167,13 +175,15 @@
       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 <div id="6"></div>
 
 ## 👋 Credit roll
 
-<img src="/client/assets/images/busLogo2.png">
+![버스 로고](./client/assets/images/busLogo2.png)
+
+<!-- <img src="/client/assets/images/busLogo2.png"> -->
 
 <table class="tg">
 <tbody>
