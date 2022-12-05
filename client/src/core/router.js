@@ -8,7 +8,6 @@ import {
   ViewTripPlanner,
   Mypage,
 } from '../component/index.js';
-// import observe from './observe.js';
 
 const router = [
   {
