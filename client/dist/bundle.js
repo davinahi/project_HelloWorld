@@ -6525,23 +6525,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/plus-solid.svg */ "./client/assets/images/plus-solid.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/close.svg */ "./client/assets/images/close.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/angle-left-solid.svg */ "./client/assets/images/angle-left-solid.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/iconCamera.svg */ "./client/assets/images/iconCamera.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/calendar-dark.svg */ "./client/assets/images/calendar-dark.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/select_arrow.svg */ "./client/assets/images/select_arrow.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/calendar.svg */ "./client/assets/images/calendar.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/select_time.svg */ "./client/assets/images/select_time.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/add_todo.svg */ "./client/assets/images/add_todo.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/checkbox_on.svg */ "./client/assets/images/checkbox_on.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/checkbox_off.svg */ "./client/assets/images/checkbox_off.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/newPost_camera.svg */ "./client/assets/images/newPost_camera.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/post-edit.svg */ "./client/assets/images/post-edit.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/cancel.svg */ "./client/assets/images/cancel.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/comment-add.svg */ "./client/assets/images/comment-add.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/recomment-add.svg */ "./client/assets/images/recomment-add.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../client/assets/images/recomment-arrow.svg */ "./client/assets/images/recomment-arrow.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/plus-solid.svg */ "./client/assets/images/plus-solid.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/close.svg */ "./client/assets/images/close.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/angle-left-solid.svg */ "./client/assets/images/angle-left-solid.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/iconCamera.svg */ "./client/assets/images/iconCamera.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/calendar-dark.svg */ "./client/assets/images/calendar-dark.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/select_arrow.svg */ "./client/assets/images/select_arrow.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/calendar.svg */ "./client/assets/images/calendar.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/select_time.svg */ "./client/assets/images/select_time.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/add_todo.svg */ "./client/assets/images/add_todo.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/checkbox_on.svg */ "./client/assets/images/checkbox_on.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/checkbox_off.svg */ "./client/assets/images/checkbox_off.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/newPost_camera.svg */ "./client/assets/images/newPost_camera.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/post-edit.svg */ "./client/assets/images/post-edit.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/cancel.svg */ "./client/assets/images/cancel.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/comment-add.svg */ "./client/assets/images/comment-add.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/recomment-add.svg */ "./client/assets/images/recomment-add.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../client/assets/images/recomment-arrow.svg */ "./client/assets/images/recomment-arrow.svg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
@@ -6758,7 +6758,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/391e3d9263841556b07a1b05b3a31f7d.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "391e3d9263841556b07a1b05b3a31f7d.svg");
 
 /***/ }),
 
@@ -6772,7 +6772,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/295e7562b3eba101ad9ebc29658e5351.mp4");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "295e7562b3eba101ad9ebc29658e5351.mp4");
 
 /***/ }),
 
@@ -7142,7 +7142,7 @@ module.exports = styleTagTransform;
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/3c589d0ad39401de8556.svg";
+module.exports = __webpack_require__.p + "assets/add_todo.svg";
 
 /***/ }),
 
@@ -7152,7 +7152,7 @@ module.exports = __webpack_require__.p + "assets/3c589d0ad39401de8556.svg";
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/9605390e1910786c8110.svg";
+module.exports = __webpack_require__.p + "assets/angle-left-solid.svg";
 
 /***/ }),
 
@@ -7162,7 +7162,7 @@ module.exports = __webpack_require__.p + "assets/9605390e1910786c8110.svg";
   \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/b874bf773ea7f82726c2.svg";
+module.exports = __webpack_require__.p + "assets/calendar-dark.svg";
 
 /***/ }),
 
@@ -7172,7 +7172,7 @@ module.exports = __webpack_require__.p + "assets/b874bf773ea7f82726c2.svg";
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/70fd8f762ab3aec27b6d.svg";
+module.exports = __webpack_require__.p + "assets/calendar.svg";
 
 /***/ }),
 
@@ -7182,7 +7182,7 @@ module.exports = __webpack_require__.p + "assets/70fd8f762ab3aec27b6d.svg";
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/fe791565a41c733edb62.svg";
+module.exports = __webpack_require__.p + "assets/cancel.svg";
 
 /***/ }),
 
@@ -7192,7 +7192,7 @@ module.exports = __webpack_require__.p + "assets/fe791565a41c733edb62.svg";
   \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/dd575533a22deeedc9b4.svg";
+module.exports = __webpack_require__.p + "assets/checkbox_off.svg";
 
 /***/ }),
 
@@ -7202,7 +7202,7 @@ module.exports = __webpack_require__.p + "assets/dd575533a22deeedc9b4.svg";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/2a62f4e381c76e2a36c9.svg";
+module.exports = __webpack_require__.p + "assets/checkbox_on.svg";
 
 /***/ }),
 
@@ -7212,7 +7212,7 @@ module.exports = __webpack_require__.p + "assets/2a62f4e381c76e2a36c9.svg";
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/cc24fec491ffd0b04cf6.svg";
+module.exports = __webpack_require__.p + "assets/close.svg";
 
 /***/ }),
 
@@ -7222,7 +7222,7 @@ module.exports = __webpack_require__.p + "assets/cc24fec491ffd0b04cf6.svg";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/8629aec6bdcf3108aa6c.svg";
+module.exports = __webpack_require__.p + "assets/comment-add.svg";
 
 /***/ }),
 
@@ -7232,7 +7232,7 @@ module.exports = __webpack_require__.p + "assets/8629aec6bdcf3108aa6c.svg";
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/ea2e1c248f69e697ef62.svg";
+module.exports = __webpack_require__.p + "assets/iconCamera.svg";
 
 /***/ }),
 
@@ -7242,7 +7242,7 @@ module.exports = __webpack_require__.p + "assets/ea2e1c248f69e697ef62.svg";
   \*************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/9018ab7f41115ff057e0.svg";
+module.exports = __webpack_require__.p + "assets/newPost_camera.svg";
 
 /***/ }),
 
@@ -7252,7 +7252,7 @@ module.exports = __webpack_require__.p + "assets/9018ab7f41115ff057e0.svg";
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/5fa783fd824e31313ced.svg";
+module.exports = __webpack_require__.p + "assets/plus-solid.svg";
 
 /***/ }),
 
@@ -7262,7 +7262,7 @@ module.exports = __webpack_require__.p + "assets/5fa783fd824e31313ced.svg";
   \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/6a1391618f3cdaa825dc.svg";
+module.exports = __webpack_require__.p + "assets/post-edit.svg";
 
 /***/ }),
 
@@ -7272,7 +7272,7 @@ module.exports = __webpack_require__.p + "assets/6a1391618f3cdaa825dc.svg";
   \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/23bf47b43c71b060ff55.svg";
+module.exports = __webpack_require__.p + "assets/recomment-add.svg";
 
 /***/ }),
 
@@ -7282,7 +7282,7 @@ module.exports = __webpack_require__.p + "assets/23bf47b43c71b060ff55.svg";
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/e75a06666a8c559a3043.svg";
+module.exports = __webpack_require__.p + "assets/recomment-arrow.svg";
 
 /***/ }),
 
@@ -7292,7 +7292,7 @@ module.exports = __webpack_require__.p + "assets/e75a06666a8c559a3043.svg";
   \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/d22c55038257eaa09428.svg";
+module.exports = __webpack_require__.p + "assets/select_arrow.svg";
 
 /***/ }),
 
@@ -7302,7 +7302,7 @@ module.exports = __webpack_require__.p + "assets/d22c55038257eaa09428.svg";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/d1cd607bd436fdc986c8.svg";
+module.exports = __webpack_require__.p + "assets/select_time.svg";
 
 /***/ })
 

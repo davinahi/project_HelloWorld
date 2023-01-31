@@ -132,7 +132,7 @@ app.post('/auth/signup', (req, res) => {
   const { email, nickname, username, password } = req.body;
   // 중복 id check
   const userInfo = users.findUser(email);
-
+  console.log(11111111111);
   if (!userInfo) {
     // id 생성
     console.log(userInfo);

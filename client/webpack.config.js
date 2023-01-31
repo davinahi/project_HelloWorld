@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    assetModuleFilename: 'assets/[hash][ext]',
+    assetModuleFilename: 'assets/[name][ext]',
     filename: 'bundle.js',
   },
   module: {
@@ -19,7 +19,7 @@ module.exports = {
         test: /\.(svg|png|jpg|gif|mp4)$/,
         loader: 'file-loader',
         options: {
-          name: 'assets/[contenthash].[ext]',
+          // name: 'assets/[name].[ext]',
         },
       },
       {
