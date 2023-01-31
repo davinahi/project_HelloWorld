@@ -119,24 +119,24 @@ select::-ms-expand {
 }
 
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -161,23 +161,23 @@ textarea {
   overflow: auto;
 }
 
-[type=checkbox],
-[type=radio] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box;
   padding: 0;
 }
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type=search] {
+[type='search'] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-[type=search]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -321,13 +321,13 @@ q {
 
 blockquote:before,
 blockquote:after {
-  content: "";
+  content: '';
   content: none;
 }
 
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -356,7 +356,9 @@ a {
 
 body {
   font: inherit;
-  font-family: "Spoqa Han Sans Neo", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif, "sans-serif";
+  font-family: 'Spoqa Han Sans Neo', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue',
+    'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', sans-serif, 'sans-serif';
   background-color: #fff;
 }
 
@@ -514,7 +516,7 @@ footer {
   height: 20px;
   padding: 0;
   line-height: 21px;
-  background: #ffffff url("/client/assets/images/plus-solid.svg") no-repeat;
+  background: #ffffff url('/client/assets/images/plus-solid.svg') no-repeat;
   background-position: center;
   background-size: 10px;
 }
@@ -803,7 +805,7 @@ footer {
   align-items: center;
 }
 .calendar__header::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 15px;
   bottom: 0;
@@ -864,7 +866,8 @@ footer {
   font-size: 14px;
   line-height: 40px;
 }
-.calendar__dates__item.prev-month, .calendar__dates__item.next-month {
+.calendar__dates__item.prev-month,
+.calendar__dates__item.next-month {
   color: #6a6a6a;
 }
 .calendar__dates__item.unable {
@@ -1034,7 +1037,8 @@ footer {
   padding: 10px;
   color: #9a9a9a;
 }
-.travel-log__item__like, .travel-log__item__comment {
+.travel-log__item__like,
+.travel-log__item__comment {
   margin-right: 8px;
 }
 .travel-log__item__like__count {
@@ -1186,7 +1190,9 @@ footer {
   align-items: stretch;
   width: 240px;
 }
-.my-travel-log__item__button-edit, .my-travel-log__item__button-delete, .my-travel-log__item__button-like {
+.my-travel-log__item__button-edit,
+.my-travel-log__item__button-delete,
+.my-travel-log__item__button-like {
   appearance: none;
   border: 0;
   padding: 0;
@@ -1196,7 +1202,8 @@ footer {
   border-radius: 8px;
   font-size: 14px;
 }
-.my-travel-log__item__button-edit, .my-travel-log__item__button-like {
+.my-travel-log__item__button-edit,
+.my-travel-log__item__button-like {
   border: 1px solid #9c5eff;
   margin-bottom: 12px;
 }
@@ -1405,7 +1412,8 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-.newCard__popup__form .time__form__input, .newCard__popup__form .time__form__select {
+.newCard__popup__form .time__form__input,
+.newCard__popup__form .time__form__select {
   position: relative;
   height: 56px;
   border-radius: 6px;
@@ -1466,7 +1474,7 @@ footer {
   width: 100%;
 }
 .newCard__popup__form .memo__title::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 20px;
   bottom: 0;
@@ -1514,7 +1522,7 @@ footer {
 .newCard__popup__form .memo__todo__item:last-child {
   border-bottom: none;
 }
-.newCard__popup__form .memo__todo__item input[type=checkbox] {
+.newCard__popup__form .memo__todo__item input[type='checkbox'] {
   display: none;
 }
 .newCard__popup__form .memo__todo__item input:checked + label {
@@ -1527,7 +1535,7 @@ footer {
   background-size: 16px;
   text-indent: -9999px;
 }
-.newCard__popup__form .memo__todo__item input[type=text] {
+.newCard__popup__form .memo__todo__item input[type='text'] {
   flex: 1;
   outline: none;
   border: none;
@@ -2045,8 +2053,8 @@ footer {
 }
 .cover__buttonbox {
   position: absolute;
-  top: -130px;
-  right: 30px;
+  top: 40px;
+  right: 60px;
 }
 .cover__buttonbox .add-cover-input {
   display: none;
@@ -2060,6 +2068,7 @@ footer {
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.3);
   border: none;
+  cursor: pointer;
 }
 .cover__buttonbox .edit-btn {
   width: 35px;
@@ -2190,7 +2199,7 @@ footer {
 }
 .trip-planner__create__option .trip-date::after {
   display: inline-block;
-  content: "|";
+  content: '|';
   margin: 0 16px;
 }
 .trip-planner__create__option .trip-people input {
@@ -2267,7 +2276,7 @@ footer {
   font-weight: 600;
 }
 .trip-container .nav-day__item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 2px;
   height: 100%;
@@ -2331,7 +2340,7 @@ footer {
 }
 .trip-story__day-item::before {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 1px;
   height: calc(100% - 10px);
@@ -2341,7 +2350,7 @@ footer {
 }
 .trip-story__day-item::after {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 9px;
   height: 9px;
@@ -2386,7 +2395,7 @@ footer {
   width: 24px;
   height: 24px;
   margin-right: 2px;
-  background: url("/client/assets/images/post-edit.svg") no-repeat center;
+  background: url('/client/assets/images/post-edit.svg') no-repeat center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -2394,7 +2403,7 @@ footer {
 .trip-story .trip-article__header__badge .remove-btn {
   width: 24px;
   height: 24px;
-  background: url("/client/assets/images/cancel.svg") no-repeat center;
+  background: url('/client/assets/images/cancel.svg') no-repeat center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -2482,7 +2491,7 @@ footer {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #9c5eff url("/client/assets/images/comment-add.svg") no-repeat center center;
+  background: #9c5eff url('/client/assets/images/comment-add.svg') no-repeat center center;
   outline: none;
   border: none;
   cursor: pointer;
@@ -2522,7 +2531,7 @@ footer {
   width: 24px;
   height: 24px;
   margin-right: 8px;
-  background: url("/client/assets/images/recomment-add.svg") no-repeat center;
+  background: url('/client/assets/images/recomment-add.svg') no-repeat center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -2530,7 +2539,7 @@ footer {
 .comment__box__buttonbox .remove-btn {
   width: 24px;
   height: 24px;
-  background: url("/client/assets/images/cancel.svg") no-repeat center;
+  background: url('/client/assets/images/cancel.svg') no-repeat center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -2546,13 +2555,13 @@ footer {
 }
 
 .recomment::before {
-  content: "";
+  content: '';
   text-align: center;
   display: block;
   width: 30px;
   height: 30px;
   margin-right: 15px;
-  background: url("/client/assets/images/recomment-arrow.svg") no-repeat center top;
+  background: url('/client/assets/images/recomment-arrow.svg') no-repeat center top;
 }
 
 .profile-img {
@@ -2567,7 +2576,8 @@ footer {
   margin-top: 180px;
 }
 
-.mypage-main, .profile-main {
+.mypage-main,
+.profile-main {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
