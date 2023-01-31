@@ -103,10 +103,10 @@
   <thead>
     <tr>
       <th>
-        <a href="https://absorbed-leek-405.notion.site/b0a9acc7214e4303a0628db065e947cc">기획서</a>
+        <a href="https://joonhabaak.notion.site/b0a9acc7214e4303a0628db065e947cc">기획서</a>
       </th>
       <th>
-        <a href="https://absorbed-leek-405.notion.site/01f981c31884406cab23f7d4f0d892b3">요구사항 명세서</a>
+        <a href="https://joonhabaak.notion.site/01f981c31884406cab23f7d4f0d892b3">요구사항 명세서</a>
       </th>
       <th>
         <a href="https://www.figma.com/file/Y2i7FagaFVoJ1WMsU7B3g1/Hello-world?node-id=0%3A1">Figma</a>
@@ -116,12 +116,12 @@
   <tbody>
   <tr>
       <td align="center">
-        <a href="https://absorbed-leek-405.notion.site/b0a9acc7214e4303a0628db065e947cc">
+        <a href="https://joonhabaak.notion.site/b0a9acc7214e4303a0628db065e947cc">
           <img width="789" alt="image" src="/client/assets/images/doc/projectstart.png">
         </a>
       </td>
       <td align="center">
-        <a href="https://absorbed-leek-405.notion.site/01f981c31884406cab23f7d4f0d892b3">
+        <a href="https://joonhabaak.notion.site/01f981c31884406cab23f7d4f0d892b3">
           <img width="789" alt="image" src="/client/assets/images/doc/demend.png">
         </a>
       </td>
@@ -138,30 +138,30 @@
   <thead>
     <tr>
       <th>
-        <a href="https://absorbed-leek-405.notion.site/e6840df2aa624595910e8876f70769d1?v=0883c70f19c247e3b430dea1d53264ab">회의록</a>
+        <a href="https://joonhabaak.notion.site/e6840df2aa624595910e8876f70769d1?v=0883c70f19c247e3b430dea1d53264ab">회의록</a>
       </th>
       <th>
-        <a href="https://absorbed-leek-405.notion.site/96ee8f7bd04544579c8cc18b48deb9a9?v=54d782f70b2c4008a355c2fe93b6bf68">칸반보드 / 간트차트</a>
+        <a href="https://joonhabaak.notion.site/96ee8f7bd04544579c8cc18b48deb9a9?v=54d782f70b2c4008a355c2fe93b6bf68">칸반보드 / 간트차트</a>
       </th>
       <th>
-        <a href="https://absorbed-leek-405.notion.site/Git-convention-389d22f88111471db595f58892001b38">Git Convention</a>
+        <a href="https://joonhabaak.notion.site/Git-convention-389d22f88111471db595f58892001b38">Git Convention</a>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://absorbed-leek-405.notion.site/e6840df2aa624595910e8876f70769d1?v=0883c70f19c247e3b430dea1d53264ab">
+        <a href="https://joonhabaak.notion.site/e6840df2aa624595910e8876f70769d1?v=0883c70f19c247e3b430dea1d53264ab">
           <img width="789" alt="image" src="/client/assets/images/doc/meetingLog.png">
         </a>
       </td>
       <td align="center">
-        <a href="https://absorbed-leek-405.notion.site/96ee8f7bd04544579c8cc18b48deb9a9?v=54d782f70b2c4008a355c2fe93b6bf68">
+        <a href="https://joonhabaak.notion.site/96ee8f7bd04544579c8cc18b48deb9a9?v=54d782f70b2c4008a355c2fe93b6bf68">
           <img width="789" alt="image" src="/client/assets/images/doc/canban.png">
         </a>
       </td>
       <td align="center">
-        <a href="https://absorbed-leek-405.notion.site/Git-convention-389d22f88111471db595f58892001b38">
+        <a href="https://joonhabaak.notion.site/Git-convention-389d22f88111471db595f58892001b38">
           <img width="789" alt="image" src="/client/assets/images/doc/gitconvention.png">
         </a>
       </td>
@@ -235,4 +235,7 @@
 ```
 npm install
 npm start
+
+폴더 최상단에 .env 파일 생성
+SECRET_KEY="복잡한 비밀번호 설정"
 ```
