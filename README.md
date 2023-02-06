@@ -4,7 +4,7 @@
 
 기간: 2022-08-12 ~ 2022-09-01 (21일)
 
-자세한 프로젝트 정보 및 시연 영상은 [여기](https://absorbed-leek-405.notion.site/21636fac3f9b4c009e5bba33c8c8867b)에서 확인 가능합니다.
+자세한 프로젝트 정보 및 시연 영상은 [여기](https://joonhabaak.notion.site/Hello-World-21636fac3f9b4c009e5bba33c8c8867b)에서 확인 가능합니다.
 
 <!-- <video src="/assets/videos/intro.mov" autoplay="true" loop="true" muted="true"> -->
 
